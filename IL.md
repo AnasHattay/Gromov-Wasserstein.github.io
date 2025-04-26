@@ -64,16 +64,5 @@ Infer the **reward function** that explains expert behavior, then train an agent
   - *Example:* Teach a quadruped robot to walk using human motion data, even with no joint angle overlap!
 - **Why It Works:** Focuses on *relationships between states* (e.g., limb coordination) rather than exact matches.
 
----
-
-## 🎯 Key Takeaways
-
-| Method          | Pros                          | Cons                          | Best For                  |
-|-----------------|-------------------------------|-------------------------------|--------------------------|
-| **BC**          | Simple, fast                  | Fails on unseen states        | Simple, static tasks     |
-| **IRL/GAIL**    | Robust, no reward engineering | Computationally heavy         | Complex, dynamic tasks   |
-| **GWIL**        | Cross-domain, no alignment    | High compute for large spaces | Real-world robotics      |
-
-**TL;DR:** BC clones, IRL reverse-engineers goals, and GWIL bridges domains. Choose based on your needs! 🚦
 
 ---
