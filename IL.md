@@ -46,7 +46,7 @@ Infer the **reward function** that explains expert behavior, then train an agent
 
 ---
 
-## 🚀 Beyond BC & IRL: Cross-Domain Learning
+## 🚀 Transfer Learning
 
 **Problem:** Most IL methods assume the *agent and expert share the same "world"* (e.g., identical robots or environments).
 
